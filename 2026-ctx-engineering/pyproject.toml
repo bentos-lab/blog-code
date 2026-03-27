@@ -1,0 +1,24 @@
+[project]
+name = "ctx-bugfix-agent"
+version = "0.1.0"
+description = "Context Engineering Demo: Traditional vs Context-Engineered Bug-Fixing Agent"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=0.3",
+    "langchain-openai",
+    "langchain-anthropic",
+    "langchain-google-genai",
+    "langchain-community",
+    "python-dotenv",
+    "rich",
+]
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "pytest-mock",
+    "pytest-asyncio",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
