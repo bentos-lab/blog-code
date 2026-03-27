@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+
+# Testing, formatting, profiling
+.pytest_cache/
+coverage.xml
+htmlcov/
+.coverage
+.coverage.*
+.cache
+.tox/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*.code-workspace
+
+# macOS
+.DS_Store

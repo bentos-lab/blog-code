@@ -1,0 +1,20 @@
+[project]
+name = "memory-assistant"
+version = "0.1.0"
+description = "Memory-powered general assistant with Mem0 + LangChain + Tavily"
+requires-python = ">=3.12"
+dependencies = [
+    "mem0ai",
+    "langchain>=0.3",
+    "langchain-openai",
+    "langchain-anthropic",
+    "langchain-google-genai",
+    "langchain-tavily",
+    "python-dotenv",
+]
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "pytest-mock",
+]
